@@ -5,13 +5,13 @@ node {
    }
    
    stage("build") {
-       snDevOpsStep '7dd16550c7173300b8e302b827c260c3'
+       snDevOpsStep '80478221c7d33300b8e302b827c260b5'
        echo "Building1" 
        sh 'mvn clean install'
        
    }
    stage("test") {
-       snDevOpsStep 'f9d16550c7173300b8e302b827c260c3'
+       snDevOpsStep '00478221c7d33300b8e302b827c260b5'
        echo "Testing"
        sh 'mvn test -Dpublish'
        
