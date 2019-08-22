@@ -5,9 +5,9 @@ node {
    }
    
    stage("build") {
-       snDevOpsStep '80478221c7d33300b8e302b827c260b5'
+       snDevOpsStep '3de392a3c7d333008c2c02b827c26099'
       stage("build on Windows"){
-         snDevOpsStep '08478221c7d33300b8e302b827c260b4'
+         //snDevOpsStep '08478221c7d33300b8e302b827c260b4'
          echo "Building"
       }
        echo "Building1" 
@@ -15,7 +15,7 @@ node {
        
    }
    stage("test") {
-       snDevOpsStep '00478221c7d33300b8e302b827c260b5'
+       snDevOpsStep 'b9e392a3c7d333008c2c02b827c26099'
        echo "Testing"
        //sh 'mvn test -Dpublish'
        
