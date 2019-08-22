@@ -16,6 +16,7 @@ node {
    }
    stage("test") {
        snDevOpsStep 'b9e392a3c7d333008c2c02b827c26099'
+      snDevOpsChange()
        echo "Testing"
        //sh 'mvn test -Dpublish'
        
