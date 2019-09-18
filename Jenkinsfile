@@ -11,5 +11,5 @@ pipFunc() {
         	//sh 'mvn clean install -DskipTests'
 		//}
     }
-	//test()
+	test()
 }
