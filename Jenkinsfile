@@ -5,7 +5,7 @@ pipFunc() {
     stage('compiling') {
         snDevOpsStep (stepSysId:'a336f1d0c70400108c2c02b827c26252')
         printBuildinfo {
-        	name = "Compiling..."
+        	name = "Compiling.."
         }
         //withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
         	//sh 'mvn clean install -DskipTests'
